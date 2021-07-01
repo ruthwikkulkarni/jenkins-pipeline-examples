@@ -5,7 +5,11 @@ pipeline {
   agent any
 
   environment {
-    g
+    git_commit_message = ''
+    git_commit_diff = ''
+    git_commit_author = ''
+    git_commit_author_name = ''
+    git_commit_author_email = ''
   }
 
   stages {
